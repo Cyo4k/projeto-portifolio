@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/style/perfil.css">
-    <title>Portfolio</title>
-    
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/style/perfil.css" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <a href="index.html">
+        <img style="position: absolute;
+        top: 80px;
+        left: 200px; 
+        width: 50px; 
+        cursor: pointer; 
+        z-index: 10; " src="src/img/icon.png" alt="voltar">
+        </a>
+        
+        <section style="position: relative;" class="perfil-header">
+            
+            <img src="./src/img/img-perfil/fabricio.png" alt="img-perfil">
+        </section>
+
+        <main class="highlight">
+            <div class="sobre">
+                <h1>Sobre</h1>
+                <p  style=" padding: 25px; text-align: center;">
+                    "Sou um desenvolvedor iniciante em front-end, com conhecimento em HTML, CSS, Javascript, responsividade e versionamento de código.
+                    
+                    Também possuo experiência em prototipação com figma e design de interfaces(UI), focado em criar experiências visuais modernas e funcionais."
+                </p>
+            </div>
+
+            <h2 class="projetos">Projetos</h2>
+            <section class="portfolio">                
+                <div class="c-card">
+                    <img style=" width: 200px; margin-bottom: 7px;"
+                        src="/src/img/projeto2.jpg"
+                        alt="imagem do card"
+                    />
+                    <h3>landing page Sexyshop</h3>
+                    <p>
+                        Página de uma loja de venda de produtos eróticos com formlário.
+                    </p>
+                </div>
+
+                <div class="c-card">
+                    <img style=" width: 200px; margin-bottom: 5px;"
+                        src="/src/img/projeto3.png"
+                        alt="imagem do card"
+                    />
+                    <h3>landing page Barber</h3>
+                    <p>
+                        Página de uma barbearia modelo landing page para agendamento de serviços, bem intuitiva.
+                    </p>
+                </div>
+
+                <div class="c-card">
+                    <img style=" width: 205px; margin-bottom: 7px;"
+                        src="/src/img/projeto1.png"
+                        alt="imagem do card"
+                    />
+                    <h3>Portifólio.</h3>
+                    <p>
+                        Meu primeiro projeto HTML / CSS com minhas habilidades em UI.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer></footer>
+    </body>
 </html>
