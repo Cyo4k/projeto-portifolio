@@ -82,7 +82,7 @@ a:hover{
     height: 250px;
     border-radius: 50%;
     margin: 20px;
-    background-image: url('/src/img/img-perfil/fabricio.png');
+    background-image: url('/projeto-portifolio/src/img/img-perfil/fabricio.png');
     background-position: center;
     background-size: cover;
 }
@@ -92,7 +92,6 @@ a:hover{
     border-radius: 50%;
     margin: 20px;
     background-color: white;
-    /* background-image: url('/src/');  caminho da sua imagem*/ 
     background-position: center;
     background-size: cover;
 }
