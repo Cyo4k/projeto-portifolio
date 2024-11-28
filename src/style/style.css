@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #131212;
+    background-color: #000000;
 }
 
 header {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .team {
-    background-image: url('/src/img/img1.png');
+    background-image: url('../img/img1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
